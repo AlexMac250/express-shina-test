@@ -3,3 +3,12 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+_app_api_v1:
+    resource:
+        path: ../src/Controller/API/v1
+        namespace: App\Controller\API\v1
+    prefix: /api/v1
+    schemes: [ '%http_protocol%' ]
+    defaults: { _format: json }
+    type: attribute
