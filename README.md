@@ -1,5 +1,3 @@
-This is the result of the test task for "Express shina"
-
 # Requirements
 
 * Docker
